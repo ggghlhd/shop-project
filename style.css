@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(images/patt.png);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+[class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-3 {
+  width: 25%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-1 {
+  width: 8.3%;
+}
+.header {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.menu li {
+  width: 25%;
+}
+.menu li a {
+  text-decoration: none;
+  /* display: block;
+  align-content: center;
+  line-height: center; */
+  display: flex;
+  color: #3476ba;
+  height: 50px;
+  font-size: 21px;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #3476ba;
+}
+/* .startbr {
+  border-left: 2px solid #3476ba;
+}
+.centerbr {
+  border-left: 2px solid #3476ba;
+  /* border-right: 2px solid #3476ba; */
+/* }
+.endbr {
+  border-left: 2px solid #3476ba;
+  border-right: 2px solid #3476ba;
+}  */
+.menu li:last-child a {
+  border-right: 1px solid #3476ba;
+}
+.menu li a:hover {
+  background-color: #3476ba;
+  color: white;
+}
+.wow {
+  display: flex;
+  align-items: center;
+}
+.riad {
+  display: flex;
+}
+.search {
+  height: 40px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #3476ba;
+  font-size: 21px;
+  border: #3476ba 1px solid;
+
+  padding-left: 20px;
+}
+.loupediv {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3476ba;
+  color: #3476ba;
+  /* padding-left: 20px;
+} */
+  position: relative;
+  left: -40px;
+  top: 4.5px;
+  box-shadow: none;
+}
+.loupediv:hover {
+  cursor: pointer;
+}
+.alio {
+  justify-self: flex-end;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yazhywa {
+  justify-self: flex-end;
+  margin-left: 0px;
+}
+.yazhywa:hover {
+  cursor: pointer;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 75px;
+  flex-direction: column;
+}
+.submenu > li a {
+  display: flex;
+  width: 286px;
+  height: 40px;
+  background-color: #3476ba;
+  font-size: 21px;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li:hover > ul {
+  display: flex;
+}
+.submenu > li a:hover {
+  color: #3476ba;
+  background-color: #fff;
+}
+.mark {
+  font-size: 12px;
+}
