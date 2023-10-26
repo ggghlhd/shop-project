@@ -19,6 +19,18 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.col-4 {
+  width: 33.33334%;
+}
+.col-5 {
+  width: 41.6666%;
+}
+.col-12 {
+  width: 100%;
+}
+.col-9 {
+  width: 75%;
+}
 .col-3 {
   width: 25%;
 }
@@ -149,4 +161,63 @@ nav ul li:hover > ul {
 }
 .mark {
   font-size: 12px;
+}
+.sidem {
+  height: 825px;
+  background-color: #3476ba;
+}
+.mainnn {
+  height: 2181px;
+}
+.centerr {
+  display: flex;
+}
+.randomtxt {
+  margin: 30px 0px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.502);
+}
+.line {
+  text-decoration: underline rgba(255, 255, 255, 0.502) 1px;
+}
+.txtandsel {
+  display: flex;
+  justify-content: start;
+}
+.select {
+  display: flex;
+  margin-left: auto;
+}
+.bigtxt {
+  justify-self: flex-start;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+.select ul {
+  width: 100%;
+}
+/* .select ul > ul {
+  width: %;
+} */
+.select ul > li {
+  /* display: flex; */
+  align-items: center;
+  height: 40px;
+  background-color: #2b71b7;
+  color: #fff;
+  border: #fff 1px solid;
+  padding-top: 10px;
+  padding-left: 19px;
+}
+.select ul > li > ul {
+  display: none;
+}
+.select ul > li:hover ul {
+  width: 318px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 14px;
+  left: -20px;
 }
